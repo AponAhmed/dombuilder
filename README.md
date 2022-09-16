@@ -2,13 +2,15 @@
 
 HTML Dom Builder
 
-## Install
-    npm i @aponahmed/dombuilder
+## Inastalatio
+
+    `npm i @aponahmed/dombuilder`
+
 ## Uses
 
 ```javascript
-import Dom from "@aponahmed/dombuilder";
-let dom = new Dom({
+import dombuilder from "@aponahmed/dombuilder";
+let dom = new dombuilder({
   type: "div",
   class: ["element", "parent"],
   attributes: {
