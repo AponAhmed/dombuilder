@@ -1,4 +1,4 @@
-module.export.dombuilder = class Dombuilder {
+class Dombuilder {
   constructor(object) {
     this.object = object;
     this.init();
@@ -43,4 +43,6 @@ module.export.dombuilder = class Dombuilder {
   render(domElement) {
     domElement.appendChild(this.dom);
   }
-};
+}
+
+module.export.Dombuilder = Dombuilder;
