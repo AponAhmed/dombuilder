@@ -1,4 +1,4 @@
-module.export = class Dom {
+module.export.Dom = class Dom {
   constructor(object) {
     this.object = object;
     this.init();

@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "HTML Dom Builder",
   "main": "script.js",
-  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Apon",
-  "license": "ISC"
+  "author": "Muhiminul Haque",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AponAhmed/dombuilder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AponAhmed/web-elements/issues"
+  },
+  "homepage": "https://github.com/AponAhmed/web-elements#readme"
 }
