@@ -9,7 +9,7 @@ HTML Dom Builder
 ## Uses
 
 ```javascript
-import dombuilder from "@aponahmed/dombuilder";
+import Dombuilder from "@aponahmed/dombuilder";
 let dom = new dombuilder({
   type: "div",
   class: ["element", "parent"],

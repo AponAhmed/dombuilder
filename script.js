@@ -45,4 +45,4 @@ class Dombuilder {
   }
 }
 
-module.export.Dombuilder = Dombuilder;
+export default Dombuilder;
