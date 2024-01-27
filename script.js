@@ -65,6 +65,7 @@ class Dombuilder {
     this.element.classList.add(className);
     return this;
   }
+  
   event(eventName, callback) {
     this.element.addEventListener(eventName, callback);
     return this;
