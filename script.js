@@ -61,11 +61,14 @@ class Dombuilder {
     this.element.setAttribute(name, value);
     return this;
   }
-  class(className) {
-    this.element.classList.add(className);
+
+  class(...classNames) {
+    classNames.forEach(className => {
+      this.element.classList.add(className);
+    });
     return this;
   }
-  
+
   event(eventName, callback) {
     this.element.addEventListener(eventName, callback);
     return this;
