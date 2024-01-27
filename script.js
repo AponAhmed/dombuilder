@@ -57,15 +57,18 @@ class Dombuilder {
     this.element = document.createElement(tag);
     return this;
   }
+
   attr(name, value) {
     this.element.setAttribute(name, value);
     return this;
   }
+
   class(classNames) {
     this.element.classList.add(classNames);
     return this;
   }
-  classes(...classNames) {
+
+  classes(classNames) {
     classNames.forEach(className => {
       this.element.classList.add(className);
     });
