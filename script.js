@@ -74,6 +74,13 @@ class Dombuilder {
     });
     return this;
   }
+  
+  styles(styleObj) {
+    for (const [key, value] of Object.entries(styleObj)) {
+      this.element.style[key] = value;
+    }
+    return this;
+  }
 
   event(eventName, callback) {
     this.element.addEventListener(eventName, callback);
